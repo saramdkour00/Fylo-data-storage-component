@@ -3,7 +3,7 @@ VARIABLES & FONTS
 ==================*/
 @font-face {
     font-family:"Raleway";
-    src: url('font/Raleway-Light.ttf') format('truetype'); 
+    src: url('assets/font/Raleway-Light.ttf') format('truetype'); 
 }
 :root{
     --Gradient:linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
@@ -26,7 +26,7 @@ body{
     height: 100vh;
     font-family:'Raleway';
     background-color: var(--Blue_950);
-    background: url(images/bg-desktop.png) var(--Blue_950) bottom  /100% 50% no-repeat ;
+    background: url(assets/images/bg-desktop.png) var(--Blue_950) bottom  /100% 50% no-repeat ;
 }
 .container{
     display:flex;
@@ -165,4 +165,5 @@ STORAGE CARD SECTION
     .storage-remaining::after{
         border-left: transparent;
     }
+
 }
